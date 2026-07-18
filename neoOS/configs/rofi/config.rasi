@@ -1,0 +1,73 @@
+/* neoOS Rofi Configuration */
+
+configuration {
+    modi: "drun,run,window,calc";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    terminal: "kitty";
+    font: "JetBrainsMono Nerd Font 12";
+    display-drun: " Apps";
+    display-run: " Run";
+    display-window: " Windows";
+    display-calc: " Calculator";
+    drun-display-format: "{name}";
+}
+
+* {
+    bg-color: rgba(30, 30, 46, 0.95);
+    text-color: #cdd6f4;
+    selected-color: #89b4fa;
+}
+
+window {
+    width: 600px;
+    border: 2px solid rgba(137, 180, 250, 0.4);
+    border-radius: 12px;
+    background-color: @bg-color;
+}
+
+inputbar {
+    padding: 12px;
+    spacing: 8px;
+    children: [prompt, entry];
+    background-color: rgba(49, 50, 68, 0.9);
+    border-radius: 8px 8px 0 0;
+}
+
+prompt {
+    text-color: #89b4fa;
+    padding: 0 8px;
+}
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: #6c7086;
+}
+
+listview {
+    lines: 8;
+    columns: 2;
+    spacing: 4px;
+    padding: 8px;
+    background-color: transparent;
+}
+
+element {
+    padding: 8px 12px;
+    border-radius: 6px;
+    spacing: 8px;
+}
+
+element selected {
+    background-color: rgba(137, 180, 250, 0.15);
+    text-color: #89b4fa;
+}
+
+element-icon {
+    size: 24px;
+}
+
+element-text {
+    expand: true;
+    vertical-align: 0.5;
+}

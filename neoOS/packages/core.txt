@@ -1,0 +1,79 @@
+# neoOS Core Packages
+# These packages are required for the base system
+
+# Hyprland compositor
+hyprland
+hyprpaper
+hyprlock
+hypridle
+hyprshot
+xdg-desktop-portal-hyprland
+hyprpolkitagent
+uwsm
+
+# Terminal and shell
+kitty
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# Bar and launcher
+waybar
+rofi-wayland
+wofi
+
+# Notification and system
+swaync
+swayosd
+wlogout
+grim
+slurp
+wl-clipboard
+cliphist
+brightnessctl
+playerctl
+polkit-gnome
+
+# File manager and utilities
+thunar
+yazi
+btop
+fastfetch
+neovim
+nano
+git
+wget
+curl
+htop
+tmux
+fzf
+ripgrep
+fd-find
+bat
+exa
+
+# Audio
+pipewire
+pipewire-pulseaudio
+wireplumber
+pavucontrol
+
+# Network
+NetworkManager
+NetworkManager-wifi
+nm-connection-editor
+
+# Bluetooth
+bluez
+blueman
+
+# Appearance
+nordic-theme
+papirus-icon-theme
+bibata-cursor-theme
+ttf-jetbrains-mono-nerd
+ttf-firacode-nerd
+ttf-cascadia-code-nerd
+
+# System tools
+polkit-gnome

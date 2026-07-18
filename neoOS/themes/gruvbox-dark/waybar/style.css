@@ -1,0 +1,66 @@
+/* Gruvbox Dark - Waybar Styling */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Cascadia Code", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(40, 40, 40, 0.85);
+    color: #ebdbb2;
+    border-radius: 12px;
+    border: 2px solid rgba(250, 189, 47, 0.3);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #928374;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #fabd2f;
+    background-color: rgba(250, 189, 47, 0.15);
+}
+
+#workspaces button:hover {
+    background-color: rgba(250, 189, 47, 0.1);
+}
+
+#window {
+    padding: 0 10px;
+    color: #d3869b;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #b8bb26;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    color: #fabd2f;
+}
+
+#network {
+    padding: 0 10px;
+    color: #8ec07c;
+}
+
+#battery {
+    padding: 0 10px;
+    color: #fb4934;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #fb4934;
+}

@@ -1,0 +1,66 @@
+/* Kanagawa - Waybar Styling */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Cascadia Code", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(22, 22, 29, 0.85);
+    color: #c8c093;
+    border-radius: 12px;
+    border: 2px solid rgba(126, 156, 216, 0.3);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #727169;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #7e9cd8;
+    background-color: rgba(126, 156, 216, 0.15);
+}
+
+#workspaces button:hover {
+    background-color: rgba(126, 156, 216, 0.1);
+}
+
+#window {
+    padding: 0 10px;
+    color: #957fb8;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #76946a;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    color: #c0a36e;
+}
+
+#network {
+    padding: 0 10px;
+    color: #6a9589;
+}
+
+#battery {
+    padding: 0 10px;
+    color: #c34043;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #c34043;
+}

@@ -1,0 +1,66 @@
+/* neoOS Waybar Styling */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Cascadia Code", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.85);
+    color: #cdd6f4;
+    border-radius: 12px;
+    border: 2px solid rgba(137, 180, 250, 0.3);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #6c7086;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #89b4fa;
+    background-color: rgba(137, 180, 250, 0.15);
+}
+
+#workspaces button:hover {
+    background-color: rgba(137, 180, 250, 0.1);
+}
+
+#window {
+    padding: 0 10px;
+    color: #cba6f7;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #a6e3a1;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    color: #f9e2af;
+}
+
+#network {
+    padding: 0 10px;
+    color: #89dceb;
+}
+
+#battery {
+    padding: 0 10px;
+    color: #f38ba8;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #f38ba8;
+}

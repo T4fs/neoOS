@@ -1,0 +1,20 @@
+{
+  "position": "top-right",
+  "layer": "overlay",
+  "control-center-margin-top": 10,
+  "control-center-margin-right": 10,
+  "control-center-margin-bottom": 10,
+  "control-center-margin-left": 10,
+  "notification-window-width": 350,
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "keyboard-shortcuts": true,
+  "image-visibility": "before-notification",
+  "transition-time": 200,
+  "hide-on-action": true,
+  "hide-on-clear": true,
+  "show-failed-inhibitors": false,
+  "scripts-directory": "/usr/share/swaync/scripts"
+}

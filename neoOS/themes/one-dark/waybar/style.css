@@ -1,0 +1,66 @@
+/* One Dark - Waybar Styling */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Cascadia Code", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(40, 44, 52, 0.85);
+    color: #abb2bf;
+    border-radius: 12px;
+    border: 2px solid rgba(97, 175, 239, 0.3);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #5c6370;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #61afef;
+    background-color: rgba(97, 175, 239, 0.15);
+}
+
+#workspaces button:hover {
+    background-color: rgba(97, 175, 239, 0.1);
+}
+
+#window {
+    padding: 0 10px;
+    color: #c678dd;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #98c379;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    color: #d19a66;
+}
+
+#network {
+    padding: 0 10px;
+    color: #56b6c2;
+}
+
+#battery {
+    padding: 0 10px;
+    color: #e06c75;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #e06c75;
+}

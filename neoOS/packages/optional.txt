@@ -1,0 +1,70 @@
+# neoOS Optional Packages
+# These packages are recommended but not required
+
+# Web browser
+firefox
+
+# Office suite
+libreoffice
+
+# Media players
+vlc
+mpv
+
+# Graphics
+gimp
+blender
+
+# Development
+code
+neovim
+python3
+python3-pip
+nodejs
+npm
+cargo
+rustc
+
+# Gaming
+steam
+lutris
+wine
+
+# Virtualization
+libvirt
+qemu-kvm
+virt-manager
+
+# Communication
+discord
+slack
+telegram-desktop
+
+# Notes and productivity
+obsidian
+notion-app
+
+# Music
+spotify-client
+
+# Video editing
+kdenlive
+shotcut
+
+# System monitoring
+htop
+iotop
+powertop
+
+# Backup
+timeshift
+snapper
+
+# Fonts
+google-noto-sans-fonts
+google-noto-serif-fonts
+google-noto-mono-fonts
+
+# Icons
+breeze-icon-theme
+adwaita-icon-theme

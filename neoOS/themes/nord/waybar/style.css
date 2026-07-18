@@ -1,0 +1,66 @@
+/* Nord - Waybar Styling */
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Cascadia Code", monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(46, 52, 64, 0.85);
+    color: #d8dee9;
+    border-radius: 12px;
+    border: 2px solid rgba(129, 161, 193, 0.3);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #4c566a;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+#workspaces button.active {
+    color: #81a1c1;
+    background-color: rgba(129, 161, 193, 0.15);
+}
+
+#workspaces button:hover {
+    background-color: rgba(129, 161, 193, 0.1);
+}
+
+#window {
+    padding: 0 10px;
+    color: #b48ead;
+}
+
+#clock {
+    padding: 0 10px;
+    color: #a3be8c;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    color: #ebcb8b;
+}
+
+#network {
+    padding: 0 10px;
+    color: #88c0d0;
+}
+
+#battery {
+    padding: 0 10px;
+    color: #bf616a;
+}
+
+#tray {
+    padding: 0 10px;
+}
+
+#custom-power {
+    padding: 0 10px;
+    color: #bf616a;
+}
