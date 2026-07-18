@@ -14,7 +14,7 @@ neoOS is an automated installer that transforms a fresh **Fedora 44** installati
 
 ## Screenshots
 
-> *Screenshots coming soon after first VM test*
+> *Screenshots coming soon*
 
 ---
 
